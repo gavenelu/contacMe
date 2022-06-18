@@ -1,0 +1,261 @@
+.body{
+  display: flex-box;
+}
+
+
+.card {
+display: flex;
+background-color: white;
+width: 317px;
+height: 317px;
+left: 116px;
+top: 44px;
+margin: 40px auto;
+margin-bottom: 0;
+background: url(./images/profile.jpg);
+background-size: auto;
+border-radius: 10px 10px 0px 0px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.mainContent{
+  font-family: 'Inter';
+display: inline-flexbox;
+width:317px;
+height: 399px;
+left: 116px;
+top: 361px;
+background: #1A1B21;
+padding-top: 21px;
+margin-left: auto;
+margin-right: auto;
+color: #FFFFFF;
+}
+
+.mainContent > h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+  }
+
+.jobTitle{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+margin: auto;
+margin-top: 6px;
+color: #F3BF99;
+}
+
+.personalWebsite{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* identical to box height, or 15px */
+text-align: center;
+margin: auto;
+margin-top: 9px;
+margin-bottom: 10px;
+color: #F5F5F5;
+
+}
+
+.contentDetail_1{
+  display: flex;
+  flex-direction: column;
+  margin: 33px 36px 24px 34px;
+}
+
+.contentDetail_2{
+  display: flex;
+  flex-direction: column;
+  margin: 17px 36px 24px 34px;
+}
+
+.contentTitle{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #F5F5F5;
+margin: auto;
+margin-left: 0;
+}
+
+.contentDescript{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  margin: auto;
+  color: #DCDCDC;
+}
+
+.personalLink{
+  display: flex;
+  column-gap: 17px;
+}
+
+.emailButton{
+  /* Button */
+box-sizing: border-box;
+/* Auto layout */
+width: 115px;
+height: 34px;
+left: 151px;
+top: 468px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+margin: auto;
+margin-right: 0;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+cursor: pointer;
+}
+
+.emailButton_logo{
+/* Mail */
+
+width: 16px;
+height: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.emailButton_text{
+  /* Text */
+
+width: 36px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+/* gray/700 */
+color: #374151;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.linkedInButton{
+  width: 115px;
+height: 34px;
+left: 283px;
+top: 468px;
+  /* Button */
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+background: #5093E2;
+border: 1px solid #5093E2;
+/* shadow/sm */
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+margin: auto;
+margin-left: 0;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+cursor: pointer;
+}
+
+.linkedInButton_logo{
+/* Icon/Font Awesome Free/Brands/L/linkedin */
+
+width: 16px;
+height: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.linkedInButton_text{
+  /* Text */
+
+width: 57px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+color: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  column-gap: 17px;
+  width: 317px;
+  height: 64px;
+left: 116px;
+top: 760px;
+background: #161619;
+border-radius: 0px 0px 10px 10px;
+
+margin-left: auto;
+margin-right: auto;
+}
+
+.socialIcon{
+  margin:0;
+  cursor: pointer;
+  margin-top: 19.5px
+}
